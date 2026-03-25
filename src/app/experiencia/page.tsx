@@ -20,10 +20,11 @@ export default function ExperienciaPage() {
               Experiência Profissional
             </h1>
 
-            <p className="text-lg sm:text-xl text-on-surface-variant leading-relaxed max-w-2xl font-body">
-              Atuo na área educacional há 12 anos, com uma trajetória construída
-              entre sala de aula, gestão e consultoria. Ao longo dessa jornada,
-              tive a oportunidade de atuar em múltiplos ecossistemas do ensino.
+            <p className="text-lg sm:text-xl text-on-surface-variant leading-relaxed max-w-3xl font-body">
+              Atuo na área educacional e empresarial há 12 anos, com uma
+              trajetória construída entre sala de aula, gestão e consultoria. Ao
+              longo dessa jornada, tive a oportunidade de atuar em múltiplos
+              ecossistemas do ensino e do mundo dos negócios.
             </p>
           </div>
 
@@ -324,9 +325,14 @@ export default function ExperienciaPage() {
                 voltadas para alunos do ensino regular, técnico e superior, além
                 de formações imersivas para professores em temas inovadores.
               </p>
-              <button className="bg-secondary-container text-on-secondary-container px-8 py-4 rounded-xl font-bold uppercase tracking-wider text-sm hover:brightness-110 transition-all active:scale-95 shadow-lg shadow-secondary-container/20">
+              <a
+                href="https://wa.me/5534984333000"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 bg-secondary-container text-on-secondary-container px-8 py-4 rounded-xl font-bold uppercase tracking-wider text-sm hover:brightness-110 transition-all active:scale-95 shadow-lg shadow-secondary-container/20"
+              >
                 Solicitar Proposta
-              </button>
+              </a>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -349,7 +355,7 @@ export default function ExperienciaPage() {
                   engineering
                 </span>
                 <p className="font-headline text-lg font-bold">
-                  Alunos (Técnico e Sup.)
+                  Alunos (Técnico e Superior)
                 </p>
               </div>
               <div className="bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/10 hover:bg-white/20 transition-colors sm:col-span-2 flex items-center gap-4">

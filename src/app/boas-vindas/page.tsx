@@ -86,7 +86,7 @@ export default function BoasVindasPage() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 sm:gap-12">
           <div className="text-center group">
             <span className="block text-4xl sm:text-5xl font-headline font-bold text-primary mb-2 group-hover:-translate-y-1 transition-transform">
-              15+
+              12+
             </span>
             <span className="text-[10px] sm:text-xs font-label text-on-surface-variant uppercase tracking-widest font-semibold">
               Anos de Experiência
