@@ -1,5 +1,5 @@
 "use client";
-import sobre from "@/assets/sobre.jpeg";
+import sobre from "@/assets/sobre_2.jpeg";
 import Image from "next/image";
 
 export default function SobreMimPage() {
@@ -8,8 +8,8 @@ export default function SobreMimPage() {
       {/* HERO NARRATIVE SECTION: Asymmetric Layout */}
       <section className="max-w-7xl mx-auto px-6 sm:px-8 pt-10 sm:pt-16 mb-20 sm:mb-32">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
-          {/* Left Column: Text & Typography (7 columns on desktop) */}
-          <div className="lg:col-span-7 order-2 lg:order-1 animate-in fade-in slide-in-from-bottom-8 duration-1000">
+          {/* Left Column: Text & Typography (6 columns on desktop) */}
+          <div className="lg:col-span-6 order-2 lg:order-1 animate-in fade-in slide-in-from-bottom-8 duration-1000">
             <div className="flex items-center space-x-3 mb-6 sm:mb-8">
               <div className="w-12 h-[2px] bg-secondary-container"></div>
               <span className="text-xs font-label uppercase tracking-[0.1em] text-secondary font-bold">
@@ -61,13 +61,17 @@ export default function SobreMimPage() {
             </div>
           </div>
 
-          {/* Right Column: Image Side (5 columns on desktop) */}
-          <div className="lg:col-span-5 relative order-1 lg:order-2 animate-in fade-in zoom-in-95 duration-1000 delay-200">
+          {/* Right Column: Image Side (6 columns on desktop) */}
+          <div className="lg:col-span-6 relative order-1 lg:order-2 animate-in fade-in zoom-in-95 duration-1000 delay-200">
             {/* Top-left decorative block */}
             <div className="absolute -top-4 -left-4 w-16 h-16 bg-secondary-container opacity-20 rounded-tl-xl hidden lg:block"></div>
 
             <div className="rounded-2xl overflow-hidden editorial-shadow relative z-10 bg-surface-container-highest group">
-              <Image src={sobre} alt="" />
+              <Image
+                src={sobre}
+                alt=""
+                className="object-[center_65%] transition-transform duration-700 group-hover:scale-140"
+              />
             </div>
 
             {/* Bottom-right decorative blur */}
