@@ -38,7 +38,7 @@ export default function HomePage() {
                 <span className="material-symbols-outlined">arrow_forward</span>
               </Link>
               <Link
-                href="/boas-vindas"
+                href="/formacao"
                 className="w-full sm:w-auto bg-transparent text-primary px-8 py-4 font-bold text-base lg:text-lg hover:bg-primary/5 active:scale-95 transition-all rounded-md flex items-center justify-center"
               >
                 Conheça o Portfólio
